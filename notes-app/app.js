@@ -1,3 +1,5 @@
-const fs = require('fs')
+const chalk = require('chalk')
 
-fs.appendFileSync('text.txt'," This is the answer to the challenge")
+
+console.log(chalk.green.bold.underline.inverse("Success"))
+
