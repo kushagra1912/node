@@ -1,3 +1,3 @@
-const fs = require('fs')
+const getNotes = require('./notes')
 
-fs.appendFileSync('text.txt'," This is the answer to the challenge")
+console.log(getNotes())
